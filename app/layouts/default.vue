@@ -5,7 +5,7 @@
       <div class="container mx-auto px-4">
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center gap-6">
-            <NuxtLink to="/en" class="flex items-center gap-2">
+            <NuxtLink :to="`/${locale}`" class="flex items-center gap-2">
               <AppLogo class="h-8 w-auto" />
               <span class="text-xl font-bold text-gray-900 dark:text-white">Zuno Marketplace</span>
             </NuxtLink>
@@ -39,13 +39,26 @@
             />
           </div>
         </div>
+
+        <!-- Package Switcher -->
+        <div v-if="showPackageSwitcher" class="py-3 border-t border-gray-100 dark:border-gray-900">
+          <PackageSwitcher />
+        </div>
       </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="container mx-auto px-4 py-8">
-      <slot />
-    </main>
+    <!-- Main Content with Sidebar -->
+    <div class="container mx-auto px-4">
+      <div class="flex gap-8 py-8">
+        <!-- Sidebar Navigation -->
+        <PackageNavigation v-if="showPackageSwitcher" />
+
+        <!-- Content Area -->
+        <main class="flex-1 min-w-0">
+          <slot />
+        </main>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="border-t border-gray-200 dark:border-gray-800 mt-16">
@@ -59,6 +72,10 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
 const { locale, locales } = useI18n()
 const colorMode = useColorMode()
 
@@ -67,7 +84,18 @@ const selectedLocale = computed({
   set: (value) => value
 })
 
+const showPackageSwitcher = computed(() => {
+  // Show package switcher and sidebar on package pages
+  const pathSegments = route.path.split('/').filter(Boolean)
+  return pathSegments.length > 1 && ['sdk', 'metadata', 'indexer', 'abis'].includes(pathSegments[1])
+})
+
 const switchLocale = (newLocale: string) => {
-  navigateTo(`/${newLocale}`)
+  const currentPath = route.path.split('/').filter(Boolean)
+  if (currentPath.length > 1) {
+    navigateTo(`/${newLocale}/${currentPath.slice(1).join('/')}`)
+  } else {
+    navigateTo(`/${newLocale}`)
+  }
 }
 </script>
