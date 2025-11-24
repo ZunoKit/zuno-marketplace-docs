@@ -1,0 +1,57 @@
+
+> zuno-marketplace-docs@0.1.0 build E:\zuno-marketplace-docs
+> nuxt build
+
+[90m[[90mnuxi[90m][39m [32mNuxt [1m4.2.1[22m[39m[90m (with [39m[90mNitro [1m2.12.9[22m[39m[90m, Vite [1m7.2.4[22m[39m[90m and Vue [1m3.5.25[22m[39m[90m)[39m
+
+[90m[[90mnuxt-llms[90m][39m [43m[30m WARN [39m[49m nuxt-llms require a domain to be set. [36mllms.domain[39m is missing.
+
+
+[41m[30m ERROR [39m[49m Could not locate the bindings file. Tried:
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\Debug\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\Release\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\out\Debug\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\Debug\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\out\Release\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\Release\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\default\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\compiled\22.17.1\win32\x64\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\addon-build\release\install-root\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\addon-build\debug\install-root\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\addon-build\default\install-root\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\lib\binding\node-v127-win32-x64\better_sqlite3.node
+
+    [90mat [39mbindings ([36mnode_modules\bindings\bindings.js:126:9[39m)
+    [90mat [39mnew Database ([36mnode_modules\better-sqlite3\lib\database.js:48:64[39m)
+    [90mat [39mgetDB ([36m/E:/zuno-marketplace-docs/node_modules/db0/dist/connectors/better-sqlite3.mjs:17:9[39m)
+    [90mat [39mObject.exec ([36m/E:/zuno-marketplace-docs/node_modules/db0/dist/connectors/better-sqlite3.mjs:24:18[39m)
+    [90mat [39mgetLocalDatabase ([36m/E:/zuno-marketplace-docs/node_modules/@nuxt/content/dist/module.mjs:358:16[39m)
+    [90mat [39masync processCollectionItems ([36m/E:/zuno-marketplace-docs/node_modules/@nuxt/content/dist/module.mjs:3011:14[39m)
+    [90mat [39masync /E:/zuno-marketplace-docs/node_modules/@nuxt/content/dist/module.mjs:2985:20
+    [90mat [39masync initNuxt ([36m/E:/zuno-marketplace-docs/node_modules/nuxt/dist/index.mjs:5390:3[39m)
+    [90mat [39masync loadNuxt ([36m/E:/zuno-marketplace-docs/node_modules/nuxt/dist/index.mjs:5589:5[39m)
+    [90mat [39masync Module.loadNuxt ([36m/E:/zuno-marketplace-docs/node_modules/@nuxt/kit/dist/index.mjs:982:16[39m)
+    [90mat [39masync Object.run ([36m/E:/zuno-marketplace-docs/node_modules/@nuxt/cli/dist/build-CVr-ruAe.mjs:38:16[39m)
+    [90mat [39masync runCommand ([36m/E:/zuno-marketplace-docs/node_modules/citty/dist/index.mjs:316:16[39m)
+    [90mat [39masync runCommand ([36m/E:/zuno-marketplace-docs/node_modules/citty/dist/index.mjs:307:11[39m)
+    [90mat [39masync runMain ([36m/E:/zuno-marketplace-docs/node_modules/citty/dist/index.mjs:445:7[39m) 
+
+
+
+[41m[30m ERROR [39m[49m Could not locate the bindings file. Tried:
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\Debug\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\Release\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\out\Debug\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\Debug\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\out\Release\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\Release\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\build\default\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\compiled\22.17.1\win32\x64\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\addon-build\release\install-root\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\addon-build\debug\install-root\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\addon-build\default\install-root\better_sqlite3.node
+ → E:\zuno-marketplace-docs\node_modules\better-sqlite3\lib\binding\node-v127-win32-x64\better_sqlite3.node
+
+ ELIFECYCLE  Command failed with exit code 1.

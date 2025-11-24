@@ -1,12 +1,22 @@
 {
-  "name": "docus-starter",
+  "name": "zuno-marketplace-docs",
+  "version": "0.1.0",
+  "description": "Unified documentation for Zuno NFT Marketplace ecosystem",
   "scripts": {
-    "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "docus": "latest",
-    "better-sqlite3": "^12.2.0",
+    "@iconify-json/lucide": "^1.2.75",
+    "@iconify-json/simple-icons": "^1.2.60",
+    "@nuxt/ui": "^4.2.1",
+    "@nuxtjs/mdc": "^0.18.4",
     "nuxt": "^4.1.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "latest"
   }
 }
