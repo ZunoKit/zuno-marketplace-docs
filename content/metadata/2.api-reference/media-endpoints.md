@@ -206,6 +206,6 @@ https://ik.imagekit.io/endpoint/image.png?tr=x-100,y-100,w-300,h-300
 
 ## See Also
 
-- [Authentication](/en/metadata/api-reference/authentication)
-- [Metadata Endpoints](/en/metadata/api-reference/metadata-endpoints)
+- [Authentication](/metadata/api-reference/authentication)
+- [Metadata Endpoints](/metadata/api-reference/metadata-endpoints)
 - [ImageKit Documentation](https://imagekit.io/documentation/)

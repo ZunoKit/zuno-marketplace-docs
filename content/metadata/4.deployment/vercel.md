@@ -351,7 +351,7 @@ To revert to previous deployment:
 
 ## See Also
 
-- [Production Checklist](/en/metadata/deployment/production-checklist)
-- [Docker Deployment](/en/metadata/deployment/docker)
-- [Environment Configuration](/en/metadata/getting-started/configuration)
+- [Production Checklist](/metadata/deployment/production-checklist)
+- [Docker Deployment](/metadata/deployment/docker)
+- [Environment Configuration](/metadata/getting-started/configuration)
 - [Vercel Documentation](https://vercel.com/docs)

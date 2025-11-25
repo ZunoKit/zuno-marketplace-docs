@@ -51,10 +51,10 @@ The installation process sets up:
 
 ## Next Steps
 
-After installation, proceed with [Quick Start](/en/indexer/1.getting-started/quick-start) to configure and run the indexer.
+After installation, proceed with [Quick Start](/indexer/1.getting-started/quick-start) to configure and run the indexer.
 
 ## See Also
 
-- [Quick Start Guide](/en/indexer/1.getting-started/quick-start)
-- [Configuration Guide](/en/indexer/1.getting-started/quick-start#2-configure-environment-variables)
-- [Event-First Architecture](/en/indexer/2.domain-architecture/event-first)
+- [Quick Start Guide](/indexer/1.getting-started/quick-start)
+- [Configuration Guide](/indexer/1.getting-started/quick-start#2-configure-environment-variables)
+- [Event-First Architecture](/indexer/2.domain-architecture/event-first)

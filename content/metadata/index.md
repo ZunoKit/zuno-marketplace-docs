@@ -41,25 +41,25 @@ Production-ready metadata service providing comprehensive API access to NFT meta
 ## Quick Links
 
 ### Getting Started
-- [Installation Guide](/en/metadata/1.getting-started/installation) - Set up the Metadata service
-- [Configuration](/en/metadata/1.getting-started/configuration) - Configure environment and database
+- [Installation Guide](/metadata/1.getting-started/installation) - Set up the Metadata service
+- [Configuration](/metadata/1.getting-started/configuration) - Configure environment and database
 
 ### API Reference
-- [Authentication](/en/metadata/2.api-reference/authentication) - API key and session authentication
-- [Metadata Endpoints](/en/metadata/2.api-reference/metadata-endpoints) - CRUD operations for NFT metadata
-- [Media Endpoints](/en/metadata/2.api-reference/media-endpoints) - Upload and manage media files
+- [Authentication](/metadata/2.api-reference/authentication) - API key and session authentication
+- [Metadata Endpoints](/metadata/2.api-reference/metadata-endpoints) - CRUD operations for NFT metadata
+- [Media Endpoints](/metadata/2.api-reference/media-endpoints) - Upload and manage media files
 
 ### Architecture
-- [Clean Architecture](/en/metadata/3.architecture/clean-architecture) - Design patterns and principles
-- [Project Structure](/en/metadata/3.architecture/project-structure) - Directory organization
+- [Clean Architecture](/metadata/3.architecture/clean-architecture) - Design patterns and principles
+- [Project Structure](/metadata/3.architecture/project-structure) - Directory organization
 
 ### Deployment
-- [Production Checklist](/en/metadata/4.deployment/production-checklist) - Pre-deployment requirements
-- [Docker Deployment](/en/metadata/4.deployment/docker) - Container deployment guide
-- [Vercel Deployment](/en/metadata/4.deployment/vercel) - Next.js cloud deployment
+- [Production Checklist](/metadata/4.deployment/production-checklist) - Pre-deployment requirements
+- [Docker Deployment](/metadata/4.deployment/docker) - Container deployment guide
+- [Vercel Deployment](/metadata/4.deployment/vercel) - Next.js cloud deployment
 
 ### Security
-- [Security Best Practices](/en/metadata/5.security/best-practices) - Comprehensive security guidelines
+- [Security Best Practices](/metadata/5.security/best-practices) - Comprehensive security guidelines
 
 ## Getting Started
 
@@ -69,4 +69,4 @@ cd zuno-marketplace-metadata
 pnpm install
 ```
 
-See the [Installation Guide](/en/metadata/getting-started/installation) for complete setup.
+See the [Installation Guide](/metadata/getting-started/installation) for complete setup.

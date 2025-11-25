@@ -382,6 +382,6 @@ curl "http://localhost:42069/api/collections?limit=50&offset=50"
 
 ## Next Steps
 
-- Explore the [GraphQL API](/en/indexer/3.api-endpoints/graphql) for flexible querying
-- Learn about [Quick Start](/en/indexer/1.getting-started/quick-start) to access these endpoints
-- Review [Domain Architecture](/en/indexer/2.domain-architecture/overview) to understand data structure
+- Explore the [GraphQL API](/indexer/3.api-endpoints/graphql) for flexible querying
+- Learn about [Quick Start](/indexer/1.getting-started/quick-start) to access these endpoints
+- Review [Domain Architecture](/indexer/2.domain-architecture/overview) to understand data structure

@@ -145,6 +145,6 @@ Expected response indicates all services are healthy.
 
 ## See Also
 
-- [Installation Guide](/en/metadata/getting-started/installation)
-- [API Authentication](/en/metadata/api-reference/authentication)
-- [Production Checklist](/en/metadata/deployment/production-checklist)
+- [Installation Guide](/metadata/getting-started/installation)
+- [API Authentication](/metadata/api-reference/authentication)
+- [Production Checklist](/metadata/deployment/production-checklist)

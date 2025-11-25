@@ -170,6 +170,6 @@ Coming soon - programmatic API key management endpoints.
 
 ## See Also
 
-- [API Endpoints](/en/metadata/api-reference/metadata-endpoints)
-- [Security Best Practices](/en/metadata/security/best-practices)
-- [Admin Dashboard](/en/metadata)
+- [API Endpoints](/metadata/api-reference/metadata-endpoints)
+- [Security Best Practices](/metadata/security/best-practices)
+- [Admin Dashboard](/metadata)

@@ -323,6 +323,6 @@ import { validateMetadata } from '@/shared/utils/validators';
 
 ## See Also
 
-- [Clean Architecture](/en/metadata/architecture/clean-architecture)
-- [Code Standards](/en/metadata/development/code-standards)
-- [Development Workflow](/en/metadata/development/workflow)
+- [Clean Architecture](/metadata/architecture/clean-architecture)
+- [Code Standards](/metadata/development/code-standards)
+- [Development Workflow](/metadata/development/workflow)

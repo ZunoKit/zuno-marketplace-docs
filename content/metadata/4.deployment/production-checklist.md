@@ -274,7 +274,7 @@ ADMIN_EMAIL=admin@your-domain.com
 
 ## See Also
 
-- [Docker Deployment](/en/metadata/deployment/docker)
-- [Vercel Deployment](/en/metadata/deployment/vercel)
-- [Configuration Guide](/en/metadata/getting-started/configuration)
-- [Security Best Practices](/en/metadata/security/best-practices)
+- [Docker Deployment](/metadata/deployment/docker)
+- [Vercel Deployment](/metadata/deployment/vercel)
+- [Configuration Guide](/metadata/getting-started/configuration)
+- [Security Best Practices](/metadata/security/best-practices)

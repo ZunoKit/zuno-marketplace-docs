@@ -183,7 +183,7 @@ Indexes events across multiple EVM chains:
 
 ## Next Steps
 
-- Explore [Event-First Architecture](/en/indexer/2.domain-architecture/event-first) in detail
-- Learn about [Domain Separation](/en/indexer/2.domain-architecture/domains)
-- Review [Domain Handlers and Implementation](/en/indexer/2.domain-architecture/event-first#event-handlers)
-- Check the [API Endpoints](/en/indexer/3.api-endpoints/rest-api)
+- Explore [Event-First Architecture](/indexer/2.domain-architecture/event-first) in detail
+- Learn about [Domain Separation](/indexer/2.domain-architecture/domains)
+- Review [Domain Handlers and Implementation](/indexer/2.domain-architecture/event-first#event-handlers)
+- Check the [API Endpoints](/indexer/3.api-endpoints/rest-api)

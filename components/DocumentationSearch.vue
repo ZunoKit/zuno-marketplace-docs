@@ -147,25 +147,25 @@ const placeholder = computed(() => props.placeholder || appConfig.navigation?.se
 const popularPages = [
   {
     title: 'SDK Installation',
-    path: '/en/sdk/getting-started/installation',
+    path: '/sdk/getting-started/installation',
     package: 'SDK',
     icon: 'i-heroicons-code-bracket'
   },
   {
     title: 'Metadata API Reference',
-    path: '/en/metadata/api-reference/metadata-endpoints',
+    path: '/metadata/api-reference/metadata-endpoints',
     package: 'Metadata',
     icon: 'i-heroicons-server-stack'
   },
   {
     title: 'Event-First Architecture',
-    path: '/en/indexer/domain-architecture/event-first',
+    path: '/indexer/domain-architecture/event-first',
     package: 'Indexer',
     icon: 'i-heroicons-circle-stack'
   },
   {
     title: 'ABIs Installation',
-    path: '/en/abis/getting-started/installation',
+    path: '/abis/getting-started/installation',
     package: 'ABIs',
     icon: 'i-heroicons-globe-americas'
   }
@@ -209,7 +209,7 @@ const performSearch = async (query: string) => {
       {
         id: '1',
         title: `${query} - Installation Guide`,
-        path: '/en/sdk/getting-started/installation',
+        path: '/sdk/getting-started/installation',
         description: 'Learn how to install and configure the SDK',
         package: 'SDK',
         complexity: 'beginner'
@@ -217,7 +217,7 @@ const performSearch = async (query: string) => {
       {
         id: '2',
         title: `${query} - API Reference`,
-        path: '/en/metadata/api-reference/metadata-endpoints',
+        path: '/metadata/api-reference/metadata-endpoints',
         description: 'Complete API documentation for metadata management',
         package: 'Metadata',
         complexity: 'intermediate'

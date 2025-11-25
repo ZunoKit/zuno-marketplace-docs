@@ -238,6 +238,6 @@ GET /api/health
 
 ## See Also
 
-- [Authentication](/en/metadata/api-reference/authentication)
-- [Media Endpoints](/en/metadata/api-reference/media-endpoints)
+- [Authentication](/metadata/api-reference/authentication)
+- [Media Endpoints](/metadata/api-reference/media-endpoints)
 - [Error Handling](#error-handling)

@@ -240,7 +240,7 @@ GROUP BY collection
 
 ## Next Steps
 
-- Explore the [Event-First Architecture](/en/indexer/2.domain-architecture/event-first) in detail
-- Review the [Architecture Overview](/en/indexer/2.domain-architecture/overview) for the complete picture
+- Explore the [Event-First Architecture](/indexer/2.domain-architecture/event-first) in detail
+- Review the [Architecture Overview](/indexer/2.domain-architecture/overview) for the complete picture
 - Check how events are processed in each domain
-- Review the [REST API](/en/indexer/3.api-endpoints/rest-api) endpoints for domain queries
+- Review the [REST API](/indexer/3.api-endpoints/rest-api) endpoints for domain queries

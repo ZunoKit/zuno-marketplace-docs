@@ -398,6 +398,6 @@ curl -X DELETE https://api.zuno-marketplace.com/api/abis/abi_v1_xyz123 \
 
 ## Related Endpoints
 
-- [Contracts Endpoints](/en/abis/api-reference/contracts-endpoints)
-- [Networks Endpoints](/en/abis/api-reference/networks-endpoints)
-- [Response Format](/en/abis/api-reference/response-format)
+- [Contracts Endpoints](/abis/api-reference/contracts-endpoints)
+- [Networks Endpoints](/abis/api-reference/networks-endpoints)
+- [Response Format](/abis/api-reference/response-format)

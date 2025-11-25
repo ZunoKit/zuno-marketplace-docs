@@ -61,10 +61,10 @@ The installation process sets up:
 
 ## Next Steps
 
-After installation, proceed with [Environment Configuration](/en/metadata/getting-started/configuration) to set up your credentials and database.
+After installation, proceed with [Environment Configuration](/metadata/getting-started/configuration) to set up your credentials and database.
 
 ## See Also
 
-- [Configuration Guide](/en/metadata/getting-started/configuration)
-- [Database Setup](/en/metadata/getting-started/configuration#database-setup)
-- [Development Server](/en/metadata/getting-started/configuration#start-development-server)
+- [Configuration Guide](/metadata/getting-started/configuration)
+- [Database Setup](/metadata/getting-started/configuration#database-setup)
+- [Development Server](/metadata/getting-started/configuration#start-development-server)

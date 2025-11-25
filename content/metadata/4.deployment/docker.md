@@ -360,6 +360,6 @@ docker exec zuno-app psql $DATABASE_URL -c "SELECT 1"
 
 ## See Also
 
-- [Production Checklist](/en/metadata/deployment/production-checklist)
-- [Vercel Deployment](/en/metadata/deployment/vercel)
-- [Environment Configuration](/en/metadata/getting-started/configuration)
+- [Production Checklist](/metadata/deployment/production-checklist)
+- [Vercel Deployment](/metadata/deployment/vercel)
+- [Environment Configuration](/metadata/getting-started/configuration)

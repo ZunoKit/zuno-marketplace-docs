@@ -317,9 +317,9 @@ Confirm all items before proceeding:
 Once verification is complete:
 
 1. **Start Development** - Begin implementing features
-2. **Read API Documentation** - [API Reference](/en/abis/api-reference/authentication)
+2. **Read API Documentation** - [API Reference](/abis/api-reference/authentication)
 3. **Configure Settings** - Customize application behavior
-4. **Plan Deployment** - [Deployment Guide](/en/abis/deployment/vercel)
+4. **Plan Deployment** - [Deployment Guide](/abis/deployment/vercel)
 
 ## Support
 
@@ -327,6 +327,6 @@ If verification fails:
 
 1. Check all environment variables are set correctly
 2. Verify external services (PostgreSQL, Redis, Pinata) are accessible
-3. Review the [Installation Guide](/en/abis/getting-started/installation)
+3. Review the [Installation Guide](/abis/getting-started/installation)
 4. Check project issues and discussions on GitHub
 5. File a new issue with verification output

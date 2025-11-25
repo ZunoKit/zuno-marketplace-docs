@@ -234,11 +234,11 @@ Before deploying to production, ensure:
 - [ ] All tests passing (`pnpm test`)
 - [ ] Type checking clean (`pnpm typecheck`)
 
-See [Deployment Guide](/en/abis/deployment/vercel) for complete production setup.
+See [Deployment Guide](/abis/deployment/vercel) for complete production setup.
 
 ## Getting Help
 
-- **Documentation**: [API Reference](/en/abis/api-reference/authentication)
+- **Documentation**: [API Reference](/abis/api-reference/authentication)
 - **Tests**: Check `tests/` directory for examples
 - **Issues**: GitHub Issues for bug reports
 - **Discussions**: GitHub Discussions for questions

@@ -16,7 +16,7 @@ Complete documentation ecosystem for building enterprise-grade NFT marketplace a
   ---
   color: primary
   size: xl
-  to: /en/sdk/getting-started/installation
+  to: /sdk/getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
   Start with SDK
@@ -42,7 +42,7 @@ Complete NFT Marketplace Ecosystem
   :::u-page-feature
   ---
   icon: i-heroicons-code-bracket
-  to: /en/sdk/getting-started/installation
+  to: /sdk/getting-started/installation
   ---
   #title
   [Zuno SDK]{.text-primary}
@@ -54,7 +54,7 @@ Complete NFT Marketplace Ecosystem
   :::u-page-feature
   ---
   icon: i-heroicons-server-stack
-  to: /en/metadata/getting-started/installation
+  to: /metadata/getting-started/installation
   ---
   #title
   [Metadata Service]{.text-primary}
@@ -66,7 +66,7 @@ Complete NFT Marketplace Ecosystem
   :::u-page-feature
   ---
   icon: i-heroicons-circle-stack
-  to: /en/indexer/getting-started/installation
+  to: /indexer/getting-started/installation
   ---
   #title
   [Event Indexer]{.text-primary}
@@ -78,7 +78,7 @@ Complete NFT Marketplace Ecosystem
   :::u-page-feature
   ---
   icon: i-heroicons-globe-americas
-  to: /en/abis/getting-started/installation
+  to: /abis/getting-started/installation
   ---
   #title
   [ABIs Service]{.text-primary}
@@ -145,7 +145,7 @@ Quick Start Guides
   :::u-page-feature
   ---
   icon: i-heroicons-rocket-launch
-  to: /en/sdk/getting-started/installation
+  to: /sdk/getting-started/installation
   ---
   #title
   [SDK Quick Start]{.text-primary}
@@ -157,7 +157,7 @@ Quick Start Guides
   :::u-page-feature
   ---
   icon: i-heroicons-cog-6-tooth
-  to: /en/metadata/getting-started/installation
+  to: /metadata/getting-started/installation
   ---
   #title
   [Metadata Setup]{.text-primary}
@@ -169,7 +169,7 @@ Quick Start Guides
   :::u-page-feature
   ---
   icon: i-heroicons-arrow-path
-  to: /en/indexer/getting-started/installation
+  to: /indexer/getting-started/installation
   ---
   #title
   [Indexer Configuration]{.text-primary}

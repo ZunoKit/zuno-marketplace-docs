@@ -378,6 +378,6 @@ SELECT * FROM audit_logs WHERE api_key = 'compromised_key' AND created_at > NOW(
 
 ## See Also
 
-- [Production Checklist](/en/metadata/deployment/production-checklist)
-- [Authentication](/en/metadata/api-reference/authentication)
-- [API Key Management](/en/metadata/api-reference/authentication#managing-api-keys)
+- [Production Checklist](/metadata/deployment/production-checklist)
+- [Authentication](/metadata/api-reference/authentication)
+- [API Key Management](/metadata/api-reference/authentication#managing-api-keys)
