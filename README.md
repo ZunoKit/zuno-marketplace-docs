@@ -1,113 +1,57 @@
-# Docus i18n Starter
+# Zuno Marketplace Documentation
 
-> A beautiful, internationalized starter for creating multi-language documentation with Docus
+[![Zuno](https://img.shields.io/badge/Made%20with-Zuno-00DC82?logo=github&labelColor=020420)](https://github.com/ZunoKit)
 
-This is the i18n Docus starter template that provides everything you need to build beautiful, multi-language documentation sites with Markdown and Vue components.
+Complete documentation ecosystem for building enterprise-grade NFT marketplace applications.
 
-## ✨ Features
+- [GitHub](https://github.com/ZunoKit)
+- [Documentation](https://github.com/ZunoKit)
 
-- 🌍 **Internationalization** - Native i18n support for multi-language docs
-- 🎨 **Beautiful Design** - Clean, modern documentation theme
-- 📱 **Responsive** - Mobile-first responsive design  
-- 🌙 **Dark Mode** - Built-in dark/light mode support
-- 🔍 **Search** - Full-text search functionality per language
-- 📝 **Markdown Enhanced** - Extended markdown with custom components
-- 🎨 **Customizable** - Easy theming and brand customization
-- ⚡ **Fast** - Optimized for performance with Nuxt 4
-- 🔧 **TypeScript** - Full TypeScript support
+## Quick Start
 
-## 🚀 Quick Start
+```bash [Terminal]
+git clone https://github.com/ZunoKit/zuno-marketplace-docs.git
+cd zuno-marketplace-docs
+pnpm install
+pnpm dev
+```
+
+## Setup
+
+Make sure to install the dependencies:
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+pnpm install
 ```
 
-Your multilingual documentation site will be running at `http://localhost:3000`
+## Development Server
 
-## 🌍 Languages
-
-This starter comes pre-configured with:
-- 🇺🇸 **English** (`en`) - Default language
-- 🇫🇷 **Français** (`fr`) - French translation
-
-## 📁 Project Structure
-
-```
-my-docs/
-├── content/              # Your markdown content
-│   ├── en/              # English content
-│   │   ├── index.md     # English homepage
-│   │   └── docs/        # English documentation
-│   └── fr/              # French content
-│       ├── index.md     # French homepage
-│       └── docs/        # French documentation
-├── public/              # Static assets
-├── nuxt.config.ts       # Nuxt configuration with i18n setup
-└── package.json         # Dependencies and scripts
-```
-
-### Content Structure
-
-The content is organized by language, making it easy to manage translations:
-
-```
-content/
-├── en/                   # English content
-│   ├── index.md
-│   ├── 1.getting-started/
-│   │   ├── installation.md
-│   │   └── configuration.md
-│   └── 2.essentials/
-│       ├── markdown.md
-│       └── components.md
-└── fr/                   # French content
-    ├── index.md
-    ├── 1.getting-started/
-    │   ├── installation.md
-    │   └── configuration.md
-    └── 2.essentials/
-        ├── markdown.md
-        └── components.md
-```
-
-## 🔗 URL Structure
-
-The i18n starter generates URLs with language prefixes:
-
-- English: `/en/getting-started/installation`
-- French: `/fr/getting-started/installation`
-- Default locale fallback: `/getting-started/installation` (redirects to English)
-
-## ⚡ Built with
-
-This starter comes pre-configured with:
-
-- [Nuxt 4](https://nuxt.com) - The web framework
-- [Nuxt Content](https://content.nuxt.com/) - File-based CMS
-- [Nuxt i18n](https://i18n.nuxt.com/) - Internationalization
-- [Nuxt UI](https://ui.nuxt.com) - UI components
-- [Nuxt Image](https://image.nuxt.com/) - Optimized images
-- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
-- [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
-
-## 📖 Documentation
-
-For detailed documentation on customizing your Docus project, visit the [Docus Documentation](https://docus.dev)
-
-## 🚀 Deployment
-
-Build for production:
+Start the development server on `http://localhost:3000`:
 
 ```bash
-npm run build
+pnpm dev
 ```
 
-The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
+## Production
 
-## 📄 License
+Build the application for production:
 
-[MIT License](https://opensource.org/licenses/MIT) 
+```bash
+pnpm build
+```
+
+Locally preview production build:
+
+```bash
+pnpm preview
+```
+
+## About Zuno Marketplace
+
+Zuno Marketplace provides a complete NFT marketplace ecosystem including:
+- **SDK**: TypeScript-first SDK with 21+ React hooks
+- **Metadata Service**: Enterprise-grade NFT metadata management
+- **Indexer**: Real-time blockchain event indexer
+- **ABIs Service**: Enterprise-grade ABI marketplace
+
+Visit [GitHub](https://github.com/ZunoKit) for more information.
