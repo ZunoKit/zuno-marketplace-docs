@@ -8,6 +8,7 @@ context: "standalone"
 complexity: "beginner"
 tokenEstimate: 380
 category: "overview"
+navigation: false
 relatedTopics:
   - "installation"
   - "api-reference"

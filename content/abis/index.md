@@ -5,6 +5,7 @@ lastUpdated: "2024-11-24"
 scope: "guide"
 complexity: "intermediate"
 category: "overview"
+navigation: false
 relatedTopics:
   - "installation"
   - "api-reference"

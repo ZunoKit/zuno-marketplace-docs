@@ -8,6 +8,7 @@ context: "standalone"
 complexity: "intermediate"
 tokenEstimate: 370
 category: "overview"
+navigation: false
 relatedTopics:
   - "domain-architecture"
   - "api-endpoints"

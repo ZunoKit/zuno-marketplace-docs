@@ -9,6 +9,7 @@ context: "standalone"
 complexity: "beginner"
 tokenEstimate: 350
 category: "overview"
+navigation: false
 relatedTopics:
   - "installation"
   - "quick-start"
