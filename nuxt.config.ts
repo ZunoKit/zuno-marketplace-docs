@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxt/ui',
-    '@nuxtjs/mdc'
+    '@nuxtjs/mdc',
+    '@nuxt/content'
   ],
 
   vite: {
@@ -26,11 +27,47 @@ export default defineNuxtConfig({
     }
   },
 
+  // Content configuration for search
+  content: {
+    documentDriven: true,
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark'
+      },
+      preload: [
+        {
+          lang: 'json',
+          path: 'src/highlights/json.mjs'
+        },
+        {
+          lang: 'bash',
+          path: 'src/highlights/bash.mjs'
+        },
+        {
+          lang: 'typescript',
+          path: 'src/highlights/typescript.mjs'
+        }
+      ]
+    },
+    navigation: {
+      fields: ['title', 'description', 'package', 'complexity']
+    }
+  },
+
   css: ['@/assets/css/main.css'],
 
   compatibilityDate: '2024-11-24',
 
   devtools: {
     enabled: true
+  },
+
+  // Runtime config for app config access
+  runtimeConfig: {
+    // Private keys (only available on server-side)
+    // public: {
+    //   // Public keys (exposed to client-side)
+    // }
   }
 })

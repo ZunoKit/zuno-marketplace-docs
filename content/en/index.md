@@ -1,29 +1,25 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: Zuno Marketplace Documentation
+  description: Comprehensive documentation for Zuno Marketplace ecosystem including SDK, Metadata, Indexer, and ABIs services. Build NFT marketplace applications with enterprise-grade tools.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Zuno Marketplace Documentation
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Complete documentation ecosystem for building enterprise-grade NFT marketplace applications. SDK, Metadata services, Indexer, and ABIs all in one place.
 
 #links
   :::u-button
   ---
-  color: neutral
+  color: primary
   size: xl
-  to: /en/getting-started/installation
+  to: /en/sdk/getting-started/installation
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Start with SDK
   :::
 
   :::u-button
@@ -31,93 +27,154 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/ZunoKit
   variant: outline
   ---
-  Star on GitHub
+  View on GitHub
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Complete NFT Marketplace Ecosystem
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-heroicons-code-bracket
+  to: /en/sdk/getting-started/installation
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
-  
+  [Zuno SDK]{.text-primary}
+
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  TypeScript-first SDK with 21+ React hooks. Build NFT marketplace features with Wagmi and React Query integration. Exchange, Collections, Auctions, and more.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  icon: i-heroicons-server-stack
+  to: /en/metadata/getting-started/installation
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
-  
+  [Metadata Service]{.text-primary}
+
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Enterprise-grade NFT metadata management with OpenSea compatibility, IPFS storage, and comprehensive API for digital assets and media processing.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-heroicons-circle-stack
+  to: /en/indexer/getting-started/installation
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
+  [Event Indexer]{.text-primary}
+
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  Real-time blockchain event indexer with event-first architecture. 83% schema reduction with domain-driven design and multi-chain support.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  icon: i-heroicons-globe-americas
+  to: /en/abis/getting-started/installation
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
+  [ABIs Service]{.text-primary}
+
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  Enterprise-grade ABI marketplace with multi-network support, IPFS storage, and tiered API access for smart contract integration.
+  :::
+::
+
+::u-page-section
+#title
+Built for Developers
+
+#description
+Production-ready tools designed for scaling NFT marketplace applications with enterprise security and performance standards.
+
+#badges
+  :::u-badge
+  ---
+  color: blue
+  variant: subtle
+  ---
+  TypeScript 5+
+  :::
+
+  :::u-badge
+  ---
+  color: green
+  variant: subtle
+  ---
+  React 19
+  :::
+
+  :::u-badge
+  ---
+  color: purple
+  variant: subtle
+  ---
+  Next.js 16
+  :::
+
+  :::u-badge
+  ---
+  color: gray
+  variant: subtle
+  ---
+  PostgreSQL
+  :::
+
+  :::u-badge
+  ---
+  color: orange
+  variant: subtle
+  ---
+  Multi-Chain
+  :::
+::
+
+::u-page-section
+#title
+Quick Start Guides
+
+#features
+  :::u-page-feature
+  ---
+  icon: i-heroicons-rocket-launch
+  to: /en/sdk/getting-started/installation
+  ---
+  #title
+  [SDK Quick Start]{.text-primary}
+
+  #description
+  Get started with the Zuno Marketplace SDK in minutes. Install dependencies, configure your app, and make your first API call.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
+  icon: i-heroicons-cog-6-tooth
+  to: /en/metadata/getting-started/installation
   ---
   #title
-  Collaborate on [Nuxt Studio]{.text-primary}
-  
+  [Metadata Setup]{.text-primary}
+
   #description
-  Write and manage your content visually, with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  Deploy the metadata service with PostgreSQL, Redis, and IPFS storage. Configure OpenSea-compatible endpoints.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  icon: i-heroicons-arrow-path
+  to: /en/indexer/getting-started/installation
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
+  [Indexer Configuration]{.text-primary}
+
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Set up real-time event indexing with automatic configuration generation from Zuno API and multi-chain support.
   :::
 ::
