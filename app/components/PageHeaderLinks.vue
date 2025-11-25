@@ -4,18 +4,11 @@ import { useClipboard } from '@vueuse/core'
 const route = useRoute()
 const toast = useToast()
 const { copy, copied } = useClipboard()
-const appConfig = useAppConfig()
+const site = useSiteConfig()
 const isCopying = ref(false)
+console.log(site)
 
-// Get site URL from app config or use current origin
-const siteUrl = computed(() => {
-  if (typeof window !== 'undefined') {
-    return window.location.origin
-  }
-  return appConfig.seo?.siteName || 'https://docs.zuno-marketplace.com'
-})
-
-const mdPath = computed(() => `${siteUrl.value}/raw${route.path}.md`)
+const mdPath = computed(() => `${site.url}/raw${route.path}.md`)
 
 const items = [
   {

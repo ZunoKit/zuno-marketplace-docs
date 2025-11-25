@@ -3,8 +3,7 @@ import type { ContentNavigationItem } from '@nuxt/content'
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
 
-const appConfig = useAppConfig()
-const header = computed(() => appConfig.header || {})
+const { header } = useAppConfig()
 </script>
 
 <template>

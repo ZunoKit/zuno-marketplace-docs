@@ -23,21 +23,3 @@
 :root {
   --ui-container: var(--container-8xl);
 }
-
-/* Dark mode background colors */
-.dark {
-  --ui-bg: var(--ui-color-neutral-950);
-  --ui-bg-muted: var(--ui-color-neutral-900);
-  --ui-bg-elevated: var(--ui-color-neutral-900);
-  --ui-bg-accented: var(--ui-color-neutral-800);
-}
-
-/* Smooth scroll behavior for ToC navigation */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Ensure headings have proper scroll margin for ToC highlighting */
-h1, h2, h3, h4, h5, h6 {
-  scroll-margin-top: 6rem;
-}

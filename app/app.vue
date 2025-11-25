@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const { seo } = useAppConfig()
 
-// Navigation and search data for docs collection
 const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs'))
 const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docs'), {
   server: false

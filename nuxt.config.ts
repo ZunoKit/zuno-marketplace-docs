@@ -1,71 +1,78 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from "@tailwindcss/vite";
-
 export default defineNuxtConfig({
-  modules: ["@nuxt/ui", "@nuxtjs/mdc", "@nuxt/content"],
-
-  vite: {
-    plugins: [tailwindcss()],
-  },
-
-  // Content configuration for search
-  content: {
-    documentDriven: true,
-    highlight: {
-      theme: {
-        default: "github-light",
-        dark: "github-dark",
-      },
-      preload: [
-        {
-          lang: "json",
-          path: "src/highlights/json.mjs",
-        },
-        {
-          lang: "bash",
-          path: "src/highlights/bash.mjs",
-        },
-        {
-          lang: "typescript",
-          path: "src/highlights/typescript.mjs",
-        },
-      ],
-    },
-    navigation: {
-      fields: ["title", "description", "package", "complexity"],
-    },
-  },
-
-  css: ["@/assets/css/main.css"],
-
-  compatibilityDate: "2024-11-24",
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/image',
+    '@nuxt/ui',
+    '@nuxt/content',
+    'nuxt-og-image',
+    'nuxt-llms'
+  ],
 
   devtools: {
-    enabled: true,
+    enabled: true
   },
 
-  // Runtime config for app config access
-  runtimeConfig: {
-    // Private keys (only available on server-side)
-    // public: {
-    //   // Public keys (exposed to client-side)
-    // }
+  css: ['~/assets/css/main.css'],
+
+  content: {
+    build: {
+      markdown: {
+        toc: {
+          searchDepth: 1
+        }
+      }
+    }
   },
 
-  // Nitro configuration to exclude better-sqlite3 from build
+  compatibilityDate: '2024-07-11',
+
   nitro: {
-    // Exclude native modules that don't work in serverless environments
-    // This prevents Nitro from trying to bundle better-sqlite3
-    experimental: {
-      wasm: true,
-    },
-    // Prerender all routes for static generation
     prerender: {
+      routes: [
+        '/'
+      ],
       crawlLinks: true,
-    },
-    // Exclude better-sqlite3 from the build
-    rollupConfig: {
-      external: ["better-sqlite3"],
-    },
+      autoSubfolderIndex: false
+    }
   },
-});
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs'
+      }
+    }
+  },
+
+  icon: {
+    provider: 'iconify'
+  },
+
+  llms: {
+    domain: 'https://docs-template.nuxt.dev/',
+    title: 'Nuxt Docs Template',
+    description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
+    full: {
+      title: 'Nuxt Docs Template - Full Documentation',
+      description: 'This is the full documentation for the Nuxt Docs Template.'
+    },
+    sections: [
+      {
+        title: 'Getting Started',
+        contentCollection: 'docs',
+        contentFilters: [
+          { field: 'path', operator: 'LIKE', value: '/getting-started%' }
+        ]
+      },
+      {
+        title: 'Essentials',
+        contentCollection: 'docs',
+        contentFilters: [
+          { field: 'path', operator: 'LIKE', value: '/essentials%' }
+        ]
+      }
+    ]
+  }
+})

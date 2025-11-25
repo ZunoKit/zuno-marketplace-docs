@@ -1,12 +1,11 @@
 <script setup lang="ts">
-const appConfig = useAppConfig()
-const footer = computed(() => appConfig.footer || {})
+const { footer } = useAppConfig()
 </script>
 
 <template>
   <UFooter>
     <template #left>
-      {{ footer?.credits }}
+      {{ footer.credits }}
     </template>
 
     <template #right>
