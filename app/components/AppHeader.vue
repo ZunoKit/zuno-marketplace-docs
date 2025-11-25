@@ -55,8 +55,16 @@ const { header } = useAppConfig()
         <UButton
           v-for="(link, index) of header.links"
           :key="index"
-          v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
-        />
+          :icon="link.icon"
+          :to="link.to"
+          :target="link.target"
+          :aria-label="link['aria-label']"
+          color="neutral"
+          variant="ghost"
+          class="max-sm:!px-2"
+        >
+          <span class="max-sm:hidden">{{ link.label }}</span>
+        </UButton>
       </template>
     </template>
 

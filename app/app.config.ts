@@ -25,6 +25,13 @@ export default defineAppConfig({
     search: true,
     colorMode: true,
     links: [{
+      'label': 'Changelog',
+      'icon': 'i-lucide-notebook-text',
+      'to': 'https://zuno-marketplace-changelog.vercel.app/',
+      'target': '_blank',
+      'aria-label': 'Changelog'
+    }, {
+      'label': 'GitHub',
       'icon': 'i-simple-icons-github',
       'to': 'https://github.com/ZunoKit',
       'target': '_blank',
