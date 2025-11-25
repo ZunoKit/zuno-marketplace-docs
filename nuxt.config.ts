@@ -1,10 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxt/ui',
     '@nuxtjs/mdc'
   ],
+
+  vite: {
+    plugins: [tailwindcss()]
+  },
 
   i18n: {
     defaultLocale: 'en',

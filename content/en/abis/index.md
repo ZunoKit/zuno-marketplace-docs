@@ -22,6 +22,7 @@ Production-ready platform providing comprehensive API access to verified Ethereu
 - [Quick Start](/en/abis/getting-started/quick-start)
 - [API Endpoints](/en/abis/api-reference/endpoints)
 - [Vercel Deployment](/en/abis/deployment/vercel)
+- [📋 Changelog](/en/abis/changelog) - Track ABIs service updates and releases
 
 ## Getting Started
 

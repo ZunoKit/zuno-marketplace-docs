@@ -21,6 +21,7 @@ Production-ready metadata service providing comprehensive API access to NFT meta
 - [Configuration](/en/metadata/getting-started/configuration)
 - [API Endpoints](/en/metadata/api-reference/endpoints)
 - [Architecture Overview](/en/metadata/architecture/overview)
+- [📋 Changelog](/en/metadata/changelog) - Track Metadata service updates and releases
 
 ## Getting Started
 

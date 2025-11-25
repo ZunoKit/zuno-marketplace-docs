@@ -20,6 +20,7 @@ Production-ready indexer providing comprehensive blockchain event processing wit
 - [Features](/en/indexer/overview/features)
 - [Domain Architecture](/en/indexer/domain-architecture/trading)
 - [REST API](/en/indexer/api-endpoints/rest)
+- [📋 Changelog](/en/indexer/changelog) - Track Indexer updates and releases
 
 ## Getting Started
 

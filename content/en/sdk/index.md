@@ -20,6 +20,7 @@ The Zuno Marketplace SDK provides a comprehensive TypeScript solution for buildi
 - [Quick Start Tutorial](/en/sdk/getting-started/quick-start)
 - [Core Modules](/en/sdk/core-modules/exchange)
 - [React Hooks Reference](/en/sdk/react-hooks/hooks-overview)
+- [📋 Changelog](/en/sdk/changelog) - Track SDK updates and releases
 
 ## Getting Started
 
