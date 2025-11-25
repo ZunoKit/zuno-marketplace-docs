@@ -2,24 +2,10 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/i18n", "@nuxt/ui", "@nuxtjs/mdc", "@nuxt/content"],
+  modules: ["@nuxt/ui", "@nuxtjs/mdc", "@nuxt/content"],
 
   vite: {
     plugins: [tailwindcss()],
-  },
-
-  i18n: {
-    defaultLocale: "en",
-    locales: [
-      { code: "en", name: "English", dir: "ltr" },
-      { code: "fr", name: "Français", dir: "ltr" },
-    ],
-    strategy: "prefix",
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: "i18n_redirected",
-      redirectOn: "root",
-    },
   },
 
   // Content configuration for search
