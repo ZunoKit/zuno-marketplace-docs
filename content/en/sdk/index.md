@@ -1,3 +1,20 @@
+---
+title: "Zuno Marketplace SDK"
+package: "sdk"
+version: "1.1.4"
+lastUpdated: "2025-11-25"
+changeFrequency: "monthly"
+scope: "guide"
+context: "standalone"
+complexity: "beginner"
+tokenEstimate: 350
+category: "overview"
+relatedTopics:
+  - "installation"
+  - "quick-start"
+  - "react-hooks"
+---
+
 # Zuno Marketplace SDK
 
 All-in-One NFT Marketplace SDK with Wagmi & React Query integration.

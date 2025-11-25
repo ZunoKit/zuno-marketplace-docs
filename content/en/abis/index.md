@@ -1,3 +1,19 @@
+---
+title: "Zuno Marketplace ABIs"
+package: "abis"
+lastUpdated: "2025-11-25"
+changeFrequency: "monthly"
+scope: "api-reference"
+context: "standalone"
+complexity: "beginner"
+tokenEstimate: 390
+category: "overview"
+relatedTopics:
+  - "installation"
+  - "deployment"
+  - "api-endpoints"
+---
+
 # Zuno Marketplace ABIs
 
 Enterprise-grade ABI marketplace and API service for Ethereum smart contracts with versioning and multi-network support.

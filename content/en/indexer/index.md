@@ -1,3 +1,19 @@
+---
+title: "Zuno Marketplace Indexer"
+package: "indexer"
+lastUpdated: "2025-11-25"
+changeFrequency: "monthly"
+scope: "guide"
+context: "standalone"
+complexity: "intermediate"
+tokenEstimate: 370
+category: "overview"
+relatedTopics:
+  - "domain-architecture"
+  - "api-endpoints"
+  - "features"
+---
+
 # Zuno Marketplace Indexer
 
 Event-first blockchain indexer with domain-driven architecture for real-time NFT marketplace data.

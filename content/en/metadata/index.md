@@ -1,3 +1,19 @@
+---
+title: "Zuno Marketplace Metadata"
+package: "metadata"
+lastUpdated: "2025-11-25"
+changeFrequency: "monthly"
+scope: "guide"
+context: "standalone"
+complexity: "beginner"
+tokenEstimate: 380
+category: "overview"
+relatedTopics:
+  - "installation"
+  - "api-reference"
+  - "architecture"
+---
+
 # Zuno Marketplace Metadata
 
 Enterprise-grade NFT metadata management service with IPFS storage and OpenSea compatibility.
