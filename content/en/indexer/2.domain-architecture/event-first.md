@@ -11,8 +11,6 @@ relatedTopics:
   - "database-schema"
 ---
 
-# Event-First Architecture
-
 Deep dive into the pure event-sourcing architecture that powers the Indexer.
 
 ## Philosophy

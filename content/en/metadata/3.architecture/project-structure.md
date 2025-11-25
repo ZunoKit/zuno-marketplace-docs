@@ -11,8 +11,6 @@ relatedTopics:
   - "code-organization"
 ---
 
-# Project Structure
-
 Understanding the Metadata service's directory organization.
 
 ## Directory Tree

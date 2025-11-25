@@ -11,8 +11,6 @@ relatedTopics:
   - "authorization"
 ---
 
-# Authentication
-
 All API endpoints require authentication via API keys or session tokens.
 
 ## API Key Authentication
@@ -41,7 +39,6 @@ curl -X GET https://your-domain.com/api/metadata \
 Include the API version in all requests using either header:
 
 ```bash
-# Option 1: x-api-version header
 -H "x-api-version: v1"
 
 # Option 2: accept-version header

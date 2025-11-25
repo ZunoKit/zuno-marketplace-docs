@@ -11,8 +11,6 @@ relatedTopics:
   - "event-handlers"
 ---
 
-# Domain Separation
-
 Understand how the Indexer uses Domain-Driven Design to organize business logic into independent domains.
 
 ## What is Domain-Driven Design?

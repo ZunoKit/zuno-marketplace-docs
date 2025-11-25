@@ -11,8 +11,6 @@ relatedTopics:
   - "contracts-endpoints"
 ---
 
-# ABIs Endpoints
-
 Complete API reference for managing smart contract ABIs.
 
 ## Overview

@@ -11,8 +11,6 @@ relatedTopics:
   - "authentication"
 ---
 
-# Zuno Marketplace ABIs
-
 <div class="flex gap-2 mb-6 flex-wrap">
   <UBadge color="blue" variant="subtle">TypeScript 5.9</UBadge>
   <UBadge color="green" variant="subtle">Next.js 15</UBadge>
@@ -107,7 +105,6 @@ relatedTopics:
 ## 🚀 Quick Start
 
 ```bash
-# Clone repository
 git clone https://github.com/ZunoKit/zuno-marketplace-abis.git
 cd zuno-marketplace-abis
 

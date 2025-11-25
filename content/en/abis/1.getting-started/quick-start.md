@@ -11,8 +11,6 @@ relatedTopics:
   - "authentication"
 ---
 
-# Quick Start
-
 Get up and running with Zuno Marketplace ABIs in minutes.
 
 ## Access Points
@@ -55,7 +53,6 @@ Password: admin123
 Check that all services are running correctly:
 
 ```bash
-# Type check
 pnpm typecheck
 
 # Run tests

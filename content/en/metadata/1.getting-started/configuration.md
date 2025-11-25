@@ -11,8 +11,6 @@ relatedTopics:
   - "database-setup"
 ---
 
-# Configuration
-
 Configure the Metadata service for your environment.
 
 ## Environment Configuration
@@ -20,8 +18,6 @@ Configure the Metadata service for your environment.
 Edit `.env.local` with your credentials after installation:
 
 ```env
-# Database (PostgreSQL or Supabase)
-DATABASE_URL=postgresql://user:password@localhost:5432/zuno_metadata
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_ANON_KEY=your-key
 SUPABASE_SERVICE_ROLE_KEY=your-service-key

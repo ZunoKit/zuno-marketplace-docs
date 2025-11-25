@@ -11,8 +11,6 @@ relatedTopics:
   - "environment-configuration"
 ---
 
-# Production Checklist
-
 Complete checklist for deploying the Metadata service to production.
 
 ## Pre-Deployment Requirements

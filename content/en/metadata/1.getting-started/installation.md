@@ -11,8 +11,6 @@ relatedTopics:
   - "prerequisites"
 ---
 
-# Installation
-
 Get the Metadata service up and running in minutes.
 
 ## Prerequisites
@@ -39,7 +37,6 @@ The following external services are required for full functionality:
 Follow these steps to install the Metadata service:
 
 ```bash
-# Clone repository
 git clone https://github.com/your-org/zuno-marketplace-metadata.git
 cd zuno-marketplace-metadata
 

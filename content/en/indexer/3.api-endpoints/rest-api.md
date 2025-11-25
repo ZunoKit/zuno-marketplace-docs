@@ -11,8 +11,6 @@ relatedTopics:
   - "domain-architecture"
 ---
 
-# REST API Endpoints
-
 Complete reference for REST API endpoints available on the Indexer.
 
 ## Base URL
@@ -373,7 +371,6 @@ X-RateLimit-Reset: 1705313400
 Use `limit` and `offset` parameters for pagination:
 
 ```bash
-# First page
 curl "http://localhost:42069/api/collections?limit=50&offset=0"
 
 # Second page

@@ -11,8 +11,6 @@ relatedTopics:
   - "security"
 ---
 
-# Authentication
-
 Authenticate API requests using one of two methods: API Keys or Session Cookies.
 
 ## Authentication Methods

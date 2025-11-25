@@ -11,8 +11,6 @@ relatedTopics:
   - "environment-variables"
 ---
 
-# Quick Start
-
 Get the Indexer running in 6 simple steps.
 
 ## 1. Installation
@@ -30,8 +28,6 @@ See [Installation](/en/indexer/1.getting-started/installation) for detailed setu
 Create a `.env.local` file in the root directory:
 
 ```bash
-# Zuno API Configuration
-ZUNO_API_URL=https://zuno-marketplace-abis.vercel.app/api
 ZUNO_API_KEY=your_api_key_here
 
 # Database Configuration (optional - uses PGlite by default)

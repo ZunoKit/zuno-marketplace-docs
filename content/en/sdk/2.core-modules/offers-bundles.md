@@ -10,8 +10,6 @@ relatedTopics:
   - "auction"
 ---
 
-# Offers & Bundles
-
 Handle NFT offers and bundle sales with the Offers & Bundles module.
 
 ## Overview

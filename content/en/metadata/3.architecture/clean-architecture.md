@@ -11,8 +11,6 @@ relatedTopics:
   - "code-organization"
 ---
 
-# Clean Architecture
-
 The Metadata service is built using Clean Architecture principles for testability, maintainability, and scalability.
 
 ## Architecture Overview

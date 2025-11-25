@@ -11,8 +11,6 @@ relatedTopics:
   - "production-deployment"
 ---
 
-# Security Best Practices
-
 Comprehensive security guide for the Metadata service.
 
 ## Authentication & Authorization

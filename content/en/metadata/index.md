@@ -14,8 +14,6 @@ relatedTopics:
   - "architecture"
 ---
 
-# Zuno Marketplace Metadata
-
 Enterprise-grade NFT metadata management service with IPFS storage and OpenSea compatibility.
 
 <div class="flex gap-2 mb-6 flex-wrap">

@@ -11,8 +11,6 @@ relatedTopics:
   - "opensea-format"
 ---
 
-# Metadata Endpoints
-
 RESTful API for creating and managing NFT metadata.
 
 ## Metadata Management

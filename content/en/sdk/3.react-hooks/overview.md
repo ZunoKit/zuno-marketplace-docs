@@ -12,8 +12,6 @@ relatedTopics:
   - "auction"
 ---
 
-# React Hooks Overview
-
 The Zuno Marketplace SDK provides 21+ React hooks for building marketplace applications with Wagmi and TanStack Query integration.
 
 ## Installation

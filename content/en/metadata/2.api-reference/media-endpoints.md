@@ -11,8 +11,6 @@ relatedTopics:
   - "media-processing"
 ---
 
-# Media Endpoints
-
 Upload and manage media files (images, videos) for your NFTs.
 
 ## Media Management
@@ -190,7 +188,6 @@ Uploaded media is automatically processed via ImageKit:
 ImageKit provides powerful URL-based transformations:
 
 ```bash
-# Resize image
 https://ik.imagekit.io/endpoint/image.png?tr=w-500,h-500
 
 # Optimize and compress

@@ -15,8 +15,6 @@ relatedTopics:
   - "react-hooks"
 ---
 
-# Zuno Marketplace SDK
-
 <div class="flex gap-2 mb-6 flex-wrap">
   <UBadge color="blue" variant="subtle">TypeScript 5.6</UBadge>
   <UBadge color="green" variant="subtle">React 19</UBadge>

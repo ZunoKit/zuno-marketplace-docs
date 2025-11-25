@@ -1,5 +1,6 @@
 ---
 title: "Installation"
+description: "Get the Zuno Marketplace ABIs service running in minutes with comprehensive setup guide."
 package: "abis"
 lastUpdated: "2024-11-24"
 scope: "guide"
@@ -10,10 +11,6 @@ relatedTopics:
   - "authentication"
   - "configuration"
 ---
-
-# Installation
-
-Get the Zuno Marketplace ABIs service running in minutes with comprehensive setup guide.
 
 ## Prerequisites
 
@@ -37,11 +34,9 @@ Get the Zuno Marketplace ABIs service running in minutes with comprehensive setu
 ### 1️⃣ Clone & Install Dependencies
 
 ```bash
-# Clone repository
 git clone https://github.com/ZunoKit/zuno-marketplace-abis.git
 cd zuno-marketplace-abis
 
-# Install dependencies (pnpm recommended)
 pnpm install
 ```
 

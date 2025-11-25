@@ -11,8 +11,6 @@ relatedTopics:
   - "event-handlers"
 ---
 
-# Domain Architecture Overview
-
 Understand the high-level architecture of the Zuno Marketplace Indexer.
 
 ## Architecture Philosophy

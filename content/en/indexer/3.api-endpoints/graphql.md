@@ -11,8 +11,6 @@ relatedTopics:
   - "event-first"
 ---
 
-# GraphQL API
-
 Flexible GraphQL endpoint for powerful queries on marketplace data.
 
 ## Base URL
@@ -407,7 +405,6 @@ query GetUserTrades {
     category
   }
 }
-# Then filter in application
 ```
 
 **Good** - Filters before pagination:

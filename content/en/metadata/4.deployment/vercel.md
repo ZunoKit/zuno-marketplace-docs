@@ -11,8 +11,6 @@ relatedTopics:
   - "environment-configuration"
 ---
 
-# Vercel Deployment
-
 Deploy the Metadata service to Vercel, optimized for Next.js applications.
 
 ## Why Vercel?

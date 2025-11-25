@@ -10,8 +10,6 @@ relatedTopics:
   - "quick-start"
 ---
 
-# Verify Installation
-
 Confirm your Zuno Marketplace ABIs installation is working correctly.
 
 ## Type Checking
@@ -106,7 +104,6 @@ If health check fails, verify individual services:
 ::collapse{label="Database Connection"}
 
 ```bash
-# Check database connection
 psql "$DATABASE_URL"
 
 # Expected: PostgreSQL prompt appears

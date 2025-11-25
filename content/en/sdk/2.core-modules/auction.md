@@ -10,8 +10,6 @@ relatedTopics:
   - "collection"
 ---
 
-# Auction Module
-
 The Auction module implements English auction functionality for NFT sales with competitive bidding.
 
 ## Overview

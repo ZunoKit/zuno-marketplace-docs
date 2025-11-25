@@ -11,8 +11,6 @@ relatedTopics:
   - "overview"
 ---
 
-# Installation
-
 Get the Zuno Marketplace Indexer up and running in minutes.
 
 ## Prerequisites
@@ -31,7 +29,6 @@ Before installing, ensure you have the following installed:
 Follow these steps to install the Indexer:
 
 ```bash
-# Clone repository
 git clone https://github.com/ZunoKit/zuno-marketplace-indexer.git
 cd zuno-marketplace-indexer
 

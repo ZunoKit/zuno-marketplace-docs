@@ -10,8 +10,6 @@ relatedTopics:
   - "auction"
 ---
 
-# Collection Module
-
 The Collection module enables creation and minting of ERC721 and ERC1155 NFT collections.
 
 ## Overview

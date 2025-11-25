@@ -11,8 +11,6 @@ relatedTopics:
   - "offers-bundles"
 ---
 
-# Exchange Module
-
 The Exchange module handles NFT listings, purchases, price updates, and cancellations in the Zuno Marketplace.
 
 ## Overview

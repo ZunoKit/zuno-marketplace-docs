@@ -14,8 +14,6 @@ relatedTopics:
   - "features"
 ---
 
-# Zuno Marketplace Indexer
-
 <div class="flex gap-2 mb-6 flex-wrap">
   <UBadge color="blue" variant="subtle">Ponder</UBadge>
   <UBadge color="green" variant="subtle">TypeScript 5.3</UBadge>

@@ -11,8 +11,6 @@ relatedTopics:
   - "environment-configuration"
 ---
 
-# Docker Deployment
-
 Deploy the Metadata service using Docker for self-hosted environments.
 
 ## Building Docker Image
