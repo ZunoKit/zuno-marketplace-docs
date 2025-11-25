@@ -58,11 +58,11 @@ curl "https://api.zuno-marketplace.com/api/abis?api_key=sk_live_YOUR_API_KEY_HER
 
 #### API Key Tiers
 
-| Tier | Monthly Requests | Burst Limit | Price | Permissions |
-|------|------------------|-------------|-------|-------------|
-| **Free** | 5,000 | 30/min | Free | Read-only ABIs, Contracts, Networks |
-| **Pro** | 50,000 | 100/min | $29/mo | All read + Create/Update ABIs |
-| **Enterprise** | Unlimited | Unlimited | Custom | Full access + Custom features |
+| Tier           | Monthly Requests | Burst Limit | Price  | Permissions                         |
+| -------------- | ---------------- | ----------- | ------ | ----------------------------------- |
+| **Free**       | 5,000            | 30/min      | Free   | Read-only ABIs, Contracts, Networks |
+| **Pro**        | 50,000           | 100/min     | $29/mo | All read + Create/Update ABIs       |
+| **Enterprise** | Unlimited        | Unlimited   | Custom | Full access + Custom features       |
 
 ### 2. Session Authentication
 
@@ -142,10 +142,10 @@ curl -H "Accept-Version: v1" \
 
 ### Version Behavior
 
-| Scenario | Behavior |
-|----------|----------|
-| Missing header | Defaults to `v1` |
-| Invalid version | Returns `400 Bad Request` |
+| Scenario           | Behavior                                |
+| ------------------ | --------------------------------------- |
+| Missing header     | Defaults to `v1`                        |
+| Invalid version    | Returns `400 Bad Request`               |
 | Deprecated version | Returns `410 Gone` with migration guide |
 
 ### Migration Guide
@@ -170,11 +170,11 @@ When a version becomes deprecated:
 
 ## Environment-Specific Base URLs
 
-| Environment | Base URL | Purpose |
-|-------------|----------|---------|
-| **Production** | `https://api.zuno-marketplace.com` | Live applications |
-| **Staging** | `https://staging-api.zuno-marketplace.com` | Pre-production testing |
-| **Development** | `http://localhost:3000` | Local development |
+| Environment     | Base URL                                   | Purpose                |
+| --------------- | ------------------------------------------ | ---------------------- |
+| **Production**  | `https://api.zuno-marketplace.com`         | Live applications      |
+| **Staging**     | `https://staging-api.zuno-marketplace.com` | Pre-production testing |
+| **Development** | `http://localhost:3000`                    | Local development      |
 
 ## Authentication Examples
 
@@ -202,15 +202,15 @@ curl -X POST https://api.zuno-marketplace.com/api/abis \
 
 ```typescript
 // Using API Key
-const response = await fetch('https://api.zuno-marketplace.com/api/abis', {
+const response = await fetch("https://api.zuno-marketplace.com/api/abis", {
   headers: {
-    'X-API-Key': 'sk_live_YOUR_API_KEY_HERE',
+    "X-API-Key": "sk_live_YOUR_API_KEY_HERE",
   },
 });
 
 // Using Session
-const response = await fetch('https://api.zuno-marketplace.com/api/abis', {
-  credentials: 'include',
+const response = await fetch("https://api.zuno-marketplace.com/api/abis", {
+  credentials: "include",
 });
 
 const data = await response.json();
@@ -294,12 +294,12 @@ const data = await response.json();
 
 API requests are rate limited based on your tier and authentication method:
 
-| Tier | Requests/Hour | Requests/Day | Burst Limit |
-|------|---------------|--------------|-------------|
-| **Public** | 100 | 1,000 | 10/min |
-| **Free** | 500 | 5,000 | 30/min |
-| **Pro** | 5,000 | 50,000 | 100/min |
-| **Enterprise** | Unlimited | Unlimited | Unlimited |
+| Tier           | Requests/Hour | Requests/Day | Burst Limit |
+| -------------- | ------------- | ------------ | ----------- |
+| **Public**     | 100           | 1,000        | 10/min      |
+| **Free**       | 500           | 5,000        | 30/min      |
+| **Pro**        | 5,000         | 50,000       | 100/min     |
+| **Enterprise** | Unlimited     | Unlimited    | Unlimited   |
 
 ### Rate Limit Headers
 
