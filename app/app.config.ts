@@ -15,10 +15,10 @@ export default defineAppConfig({
     siteName: 'Zuno Marketplace Documentation'
   },
   header: {
-    title: '',
+    title: 'Zuno Marketplace',
     to: '/',
     logo: {
-      alt: '',
+      alt: 'Zuno Marketplace',
       light: '',
       dark: ''
     },
