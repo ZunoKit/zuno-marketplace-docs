@@ -12,9 +12,6 @@ const sections = [
   { label: 'zuno-marketplace-metadata', value: 'metadata' }
 ]
 
-// For display in select - using full object
-const sectionOptions = computed(() => sections)
-
 // Auto-detect current section from route or default to SDK
 const getCurrentSection = () => {
   const path = route.path
@@ -25,21 +22,6 @@ const getCurrentSection = () => {
 }
 
 const selectedSection = ref(getCurrentSection())
-
-// Get current section object for USelectMenu
-const selectedSectionObject = computed({
-  get: () => sections.find(s => s.value === selectedSection.value) || sections[0],
-  set: (newSection) => {
-    selectedSection.value = newSection.value
-    onSectionChange(newSection.value)
-  }
-})
-
-// Get current section label for display
-const selectedLabel = computed(() => {
-  const section = sections.find(s => s.value === selectedSection.value)
-  return section?.label || 'zuno-marketplace-sdk'
-})
 
 // Watch route changes to update selected section
 watch(() => route.path, () => {
