@@ -51,6 +51,14 @@ export const packages: Record<string, PackageInfo> = {
         items: [
           { title: 'Hooks Overview', to: '/sdk/react-hooks/hooks-overview' }
         ]
+      },
+      {
+        title: 'Changelog',
+        icon: 'i-lucide-newspaper',
+        badge: 'v1.1.4',
+        items: [
+          { title: 'View Releases', to: '/sdk/changelog' }
+        ]
       }
     ]
   },
@@ -82,6 +90,13 @@ export const packages: Record<string, PackageInfo> = {
         items: [
           { title: 'Overview', to: '/metadata/architecture/overview' },
           { title: 'Database Schema', to: '/metadata/architecture/database' }
+        ]
+      },
+      {
+        title: 'Changelog',
+        icon: 'i-lucide-newspaper',
+        items: [
+          { title: 'View Releases', to: '/metadata/changelog' }
         ]
       }
     ]
@@ -115,6 +130,13 @@ export const packages: Record<string, PackageInfo> = {
           { title: 'REST API', to: '/indexer/api-endpoints/rest' },
           { title: 'GraphQL', to: '/indexer/api-endpoints/graphql' }
         ]
+      },
+      {
+        title: 'Changelog',
+        icon: 'i-lucide-newspaper',
+        items: [
+          { title: 'View Releases', to: '/indexer/changelog' }
+        ]
       }
     ]
   },
@@ -146,6 +168,13 @@ export const packages: Record<string, PackageInfo> = {
         items: [
           { title: 'Vercel', to: '/abis/deployment/vercel' },
           { title: 'Docker', to: '/abis/deployment/docker' }
+        ]
+      },
+      {
+        title: 'Changelog',
+        icon: 'i-lucide-newspaper',
+        items: [
+          { title: 'View Releases', to: '/abis/changelog' }
         ]
       }
     ]

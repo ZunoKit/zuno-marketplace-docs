@@ -6,31 +6,10 @@ export default defineAppConfig({
     }
   },
 
-  docus: {
-    title: 'Zuno Marketplace',
-    description: 'Unified documentation for Zuno NFT Marketplace ecosystem',
-    url: 'https://docs.zuno.com',
-
-    socials: {
-      github: 'ZunoKit/zuno-marketplace-docs'
-    },
-
-    aside: {
-      level: 1,
-      exclude: []
-    },
-
-    header: {
-      logo: true,
-      showLinkIcon: true
-    },
-
-    footer: {
-      credits: {
-        icon: '',
-        text: 'Built with ❤️ by Zuno Team',
-        href: 'https://zuno.com'
-      }
-    }
+  repositories: {
+    sdk: 'ZunoKit/zuno-marketplace-sdk',
+    metadata: 'ZunoKit/zuno-marketplace-metadata',
+    indexer: 'ZunoKit/zuno-marketplace-indexer',
+    abis: 'ZunoKit/zuno-marketplace-abis'
   }
 })
