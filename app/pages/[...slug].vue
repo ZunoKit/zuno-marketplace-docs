@@ -33,9 +33,10 @@ useSeoMeta({
 
 const headline = computed(() => findPageHeadline(navigation?.value, page.value?.path))
 
-defineOgImageComponent('Docs', {
-  headline: headline.value
-})
+// Optional: OG Image generation (requires nuxt-og-image module)
+// defineOgImageComponent('Docs', {
+//   headline: headline.value
+// })
 
 const links = computed(() => {
   const links = []
