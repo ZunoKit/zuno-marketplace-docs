@@ -46,7 +46,7 @@ A comprehensive, type-safe SDK for building NFT marketplace applications on Ethe
 - **Listing ID Extraction** - `listNFT()` now returns `{ listingId, tx }` automatically
 
 ::alert{type="info"}
-**Migration Note**: If upgrading from v1.1.3, update your code to destructure responses. See the changelog for details.
+**Migration Note**: If upgrading from v1.1.3, update your code to destructure responses.
 ::
 
 ## 📦 Installation
