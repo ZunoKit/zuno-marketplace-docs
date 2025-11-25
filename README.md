@@ -1,29 +1,20 @@
-# Nuxt Docs Template
+# Zuno Marketplace Documentation
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+[![Zuno](https://img.shields.io/badge/Made%20with-Zuno-00DC82?logo=github&labelColor=020420)](https://github.com/ZunoKit)
 
-Use this template to build your own documentation with [Nuxt UI](https://ui.nuxt.com) quickly.
+Complete documentation ecosystem for building enterprise-grade NFT marketplace applications.
 
-- [Live demo](https://docs-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation)
-
-<a href="https://docs-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
-    <img alt="Nuxt Docs Template" src="https://ui.nuxt.com/assets/templates/nuxt/docs-light.png">
-  </picture>
-</a>
+- [GitHub](https://github.com/ZunoKit)
+- [Documentation](https://github.com/ZunoKit)
 
 ## Quick Start
 
 ```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/docs
+git clone https://github.com/ZunoKit/zuno-marketplace-docs.git
+cd zuno-marketplace-docs
+pnpm install
+pnpm dev
 ```
-
-## Deploy your own
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=docs&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fdocs&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fdocs-dark.png&demo-url=https%3A%2F%2Fdocs-template.nuxt.dev%2F&demo-title=Nuxt%20Docs%20Template&demo-description=A%20documentation%20template%20powered%20by%20Nuxt%20Content.)
 
 ## Setup
 
@@ -55,8 +46,12 @@ Locally preview production build:
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## About Zuno Marketplace
 
-## Renovate integration
+Zuno Marketplace provides a complete NFT marketplace ecosystem including:
+- **SDK**: TypeScript-first SDK with 21+ React hooks
+- **Metadata Service**: Enterprise-grade NFT metadata management
+- **Indexer**: Real-time blockchain event indexer
+- **ABIs Service**: Enterprise-grade ABI marketplace
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+Visit [GitHub](https://github.com/ZunoKit) for more information.

@@ -51,12 +51,12 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Nuxt Docs Template',
-    description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
+    domain: 'https://docs.zunomarketplace.com/',
+    title: 'Zuno Marketplace Documentation',
+    description: 'Complete documentation ecosystem for building enterprise-grade NFT marketplace applications.',
     full: {
-      title: 'Nuxt Docs Template - Full Documentation',
-      description: 'This is the full documentation for the Nuxt Docs Template.'
+      title: 'Zuno Marketplace - Full Documentation',
+      description: 'Complete documentation for Zuno Marketplace SDK, Metadata, Indexer, and ABIs services.'
     },
     sections: [
       {

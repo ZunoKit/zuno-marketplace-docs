@@ -13,8 +13,8 @@ useSeoMeta({
   ogTitle: title,
   description,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/docs-light.png'
+  ogImage: 'https://github.com/ZunoKit/zuno-marketplace-docs/og-image.png',
+  twitterImage: 'https://github.com/ZunoKit/zuno-marketplace-docs/og-image.png'
 })
 </script>
 
