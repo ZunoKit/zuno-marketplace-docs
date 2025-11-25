@@ -2,9 +2,36 @@
 import type { ContentNavigationItem } from '@nuxt/content'
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+const route = useRoute()
+const router = useRouter()
 
 const appConfig = useAppConfig()
 const header = computed(() => appConfig.header || {})
+
+// Language switcher
+const { locale, locales } = useI18n()
+
+const currentLocale = computed(() => {
+  const loc = (locales.value as any[]).find(l => l.code === locale.value)
+  return loc || { code: 'en', name: 'English' }
+})
+
+const languageOptions = computed(() =>
+  (locales.value as any[]).map(l => ({
+    label: l.name,
+    value: l.code,
+    icon: l.code === 'en' ? 'i-circle-flags-us' : 'i-circle-flags-fr'
+  }))
+)
+
+function switchLocale(newLocale: string) {
+  const pathSegments = route.path.split('/').filter(Boolean)
+  if (pathSegments.length > 1) {
+    router.push(`/${newLocale}/${pathSegments.slice(1).join('/')}`)
+  } else {
+    router.push(`/${newLocale}`)
+  }
+}
 </script>
 
 <template>
@@ -51,6 +78,24 @@ const header = computed(() => appConfig.header || {})
         v-if="header?.search"
         class="lg:hidden"
       />
+
+      <!-- Language Switcher -->
+      <USelectMenu
+        v-model="locale"
+        :options="languageOptions"
+        size="xs"
+        @update:model-value="switchLocale"
+      >
+        <template #label>
+          <span class="flex items-center gap-1.5">
+            <UIcon
+              :name="currentLocale.code === 'en' ? 'i-circle-flags-us' : 'i-circle-flags-fr'"
+              class="size-4"
+            />
+            <span class="text-xs font-medium">{{ currentLocale.code.toUpperCase() }}</span>
+          </span>
+        </template>
+      </USelectMenu>
 
       <UColorModeButton v-if="header?.colorMode" />
 
