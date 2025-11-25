@@ -1,30 +1,25 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from '@tailwindcss/vite'
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/i18n',
-    '@nuxt/ui',
-    '@nuxtjs/mdc',
-    '@nuxt/content'
-  ],
+  modules: ["@nuxtjs/i18n", "@nuxt/ui", "@nuxtjs/mdc", "@nuxt/content"],
 
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
   },
 
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: "en",
     locales: [
-      { code: 'en', name: 'English', dir: 'ltr' },
-      { code: 'fr', name: 'Français', dir: 'ltr' }
+      { code: "en", name: "English", dir: "ltr" },
+      { code: "fr", name: "Français", dir: "ltr" },
     ],
-    strategy: 'prefix',
+    strategy: "prefix",
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root'
-    }
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+    },
   },
 
   // Content configuration for search
@@ -32,35 +27,35 @@ export default defineNuxtConfig({
     documentDriven: true,
     highlight: {
       theme: {
-        default: 'github-light',
-        dark: 'github-dark'
+        default: "github-light",
+        dark: "github-dark",
       },
       preload: [
         {
-          lang: 'json',
-          path: 'src/highlights/json.mjs'
+          lang: "json",
+          path: "src/highlights/json.mjs",
         },
         {
-          lang: 'bash',
-          path: 'src/highlights/bash.mjs'
+          lang: "bash",
+          path: "src/highlights/bash.mjs",
         },
         {
-          lang: 'typescript',
-          path: 'src/highlights/typescript.mjs'
-        }
-      ]
+          lang: "typescript",
+          path: "src/highlights/typescript.mjs",
+        },
+      ],
     },
     navigation: {
-      fields: ['title', 'description', 'package', 'complexity']
-    }
+      fields: ["title", "description", "package", "complexity"],
+    },
   },
 
-  css: ['@/assets/css/main.css'],
+  css: ["@/assets/css/main.css"],
 
-  compatibilityDate: '2024-11-24',
+  compatibilityDate: "2024-11-24",
 
   devtools: {
-    enabled: true
+    enabled: true,
   },
 
   // Runtime config for app config access
@@ -69,5 +64,22 @@ export default defineNuxtConfig({
     // public: {
     //   // Public keys (exposed to client-side)
     // }
-  }
-})
+  },
+
+  // Nitro configuration to exclude better-sqlite3 from build
+  nitro: {
+    // Exclude native modules that don't work in serverless environments
+    // This prevents Nitro from trying to bundle better-sqlite3
+    experimental: {
+      wasm: true,
+    },
+    // Prerender all routes for static generation
+    prerender: {
+      crawlLinks: true,
+    },
+    // Exclude better-sqlite3 from the build
+    rollupConfig: {
+      external: ["better-sqlite3"],
+    },
+  },
+});

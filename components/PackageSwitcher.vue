@@ -22,16 +22,19 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { getAllPackages } from '@/app/config/packages'
 
 const route = useRoute()
-const { locale } = useI18n()
+const { $i18n } = useNuxtApp()
+const appConfig = useAppConfig()
 
-const packages = getAllPackages()
+// Get packages from app config
+const packages = computed(() => (appConfig as any).packages || [])
 
 const currentPackage = computed(() => {
   const pathSegments = route.path.split('/').filter(Boolean)
   // Format: /en/sdk/... or /fr/abis/...
   return pathSegments[1] || null
 })
+
+const locale = computed(() => $i18n.locale)
 </script>

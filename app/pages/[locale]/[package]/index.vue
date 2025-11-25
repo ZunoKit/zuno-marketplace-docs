@@ -11,8 +11,8 @@
     <div v-else>
       <!-- LLM Features Header -->
       <div class="flex items-center justify-end gap-2 mb-6">
-        <LLMLLMBadge :token-estimate="tokenEstimate" :scope="frontmatter.scope" />
-        <LLMCopyForLLM :markdown="rawMarkdown" />
+        <LLMBadge :token-estimate="tokenEstimate" :scope="frontmatter.scope" />
+        <CopyForLLM :markdown="rawMarkdown" />
       </div>
 
       <!-- Content -->

@@ -43,10 +43,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { getPackage } from '@/app/config/packages'
 
 const route = useRoute()
-const { locale } = useI18n()
+const { $i18n } = useNuxtApp()
+const appConfig = useAppConfig()
 
 const currentPackage = computed(() => {
   const pathSegments = route.path.split('/').filter(Boolean)
@@ -54,8 +54,15 @@ const currentPackage = computed(() => {
 })
 
 const packageInfo = computed(() => {
-  return currentPackage.value ? getPackage(currentPackage.value) : null
+  if (!currentPackage.value) return null
+
+  const packages = (appConfig as any).packages || []
+  return packages.find((pkg: any) =>
+    pkg.name.toLowerCase() === currentPackage.value?.toLowerCase()
+  ) || null
 })
+
+const locale = computed(() => $i18n.locale)
 
 function isActive(to: string) {
   return route.path.includes(to)
