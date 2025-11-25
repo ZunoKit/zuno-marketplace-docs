@@ -6,7 +6,7 @@
         <div class="flex items-center justify-between">
           <!-- Logo and Title -->
           <div class="flex items-center space-x-4">
-            <NuxtLink :to="'/' + $i18n.locale" class="flex items-center space-x-2">
+            <NuxtLink to="/" class="flex items-center space-x-2">
               <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
                 <UIcon name="i-heroicons-cube-transparent" class="w-5 h-5 text-white" />
               </div>
@@ -27,18 +27,6 @@
             <div class="hidden md:block">
               <DocumentationSearch placeholder="Search documentation..." />
             </div>
-
-            <!-- Language Switcher -->
-            <UButton
-              v-for="locale in $i18n.locales"
-              :key="locale.code"
-              :color="$i18n.locale === locale.code ? 'primary' : 'neutral'"
-              variant="ghost"
-              size="xs"
-              @click="$i18n.setLocale(locale.code)"
-            >
-              {{ locale.name }}
-            </UButton>
 
             <!-- Mobile Menu Toggle -->
             <UButton
@@ -112,7 +100,6 @@
 </template>
 
 <script setup lang="ts">
-const { $i18n } = useNuxtApp()
 const appConfig = useAppConfig()
 const route = useRoute()
 

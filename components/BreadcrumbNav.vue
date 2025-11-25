@@ -4,7 +4,7 @@
       <!-- Home -->
       <li>
         <UButton
-          :to="'/' + $i18n.locale"
+          to="/"
           variant="ghost"
           size="xs"
           color="gray"
@@ -18,7 +18,7 @@
       <li v-if="currentPackage">
         <UIcon name="i-heroicons-chevron-right" class="w-4 h-4 text-gray-400" />
         <UButton
-          :to="`/${$i18n.locale}/${currentPackage}`"
+          :to="`/${currentPackage}`"
           variant="ghost"
           size="xs"
           :color="currentPackageColor"
@@ -49,24 +49,20 @@
 
 <script setup lang="ts">
 const route = useRoute()
-const { $i18n } = useNuxtApp()
 const appConfig = useAppConfig()
 
 // Parse current route to extract package and category
 const currentPackage = computed(() => {
-  const segments = route.path.split('/')
-  const localeIndex = segments.findIndex(seg => seg === $i18n.locale)
-  if (localeIndex !== -1 && segments[localeIndex + 1]) {
-    return segments[localeIndex + 1]
-  }
-  return null
+  const segments = route.path.split('/').filter(Boolean)
+  // Format: /sdk/... or /metadata/...
+  return segments[0] || null
 })
 
 const currentCategory = computed(() => {
-  const segments = route.path.split('/')
-  const localeIndex = segments.findIndex(seg => seg === $i18n.locale)
-  if (localeIndex !== -1 && segments[localeIndex + 2]) {
-    return segments[localeIndex + 2]
+  const segments = route.path.split('/').filter(Boolean)
+  // Format: /sdk/getting-started/...
+  if (segments[1]) {
+    return segments[1]
   }
   return null
 })

@@ -17,7 +17,7 @@ Complete documentation ecosystem for building enterprise-grade NFT marketplace a
   color: primary
   size: xl
   to: /sdk/getting-started/installation
-  trailing-icon: i-lucide-arrow-right
+  trailingIcon: i-lucide-arrow-right
   ---
   Start with SDK
   :::

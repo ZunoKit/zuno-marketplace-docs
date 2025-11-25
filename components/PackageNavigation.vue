@@ -21,7 +21,7 @@
         <ul class="space-y-1">
           <li v-for="item in section.items" :key="item.to">
             <UButton
-              :to="`/${locale}${item.to}`"
+              :to="item.to"
               :color="isActive(item.to) ? 'primary' : 'gray'"
               :variant="isActive(item.to) ? 'soft' : 'ghost'"
               block
@@ -45,12 +45,12 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const { $i18n } = useNuxtApp()
 const appConfig = useAppConfig()
 
 const currentPackage = computed(() => {
   const pathSegments = route.path.split('/').filter(Boolean)
-  return pathSegments[1] || null
+  // Format: /sdk/... or /metadata/...
+  return pathSegments[0] || null
 })
 
 const packageInfo = computed(() => {
@@ -61,8 +61,6 @@ const packageInfo = computed(() => {
     pkg.name.toLowerCase() === currentPackage.value?.toLowerCase()
   ) || null
 })
-
-const locale = computed(() => $i18n.locale)
 
 function isActive(to: string) {
   return route.path.includes(to)
