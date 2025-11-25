@@ -42,25 +42,25 @@ Production-ready metadata service providing comprehensive API access to NFT meta
 ## Quick Links
 
 ### Getting Started
-- [Installation Guide](/metadata/1.getting-started/installation) - Set up the Metadata service
-- [Configuration](/metadata/1.getting-started/configuration) - Configure environment and database
+- [Installation Guide](/metadata/getting-started/installation) - Set up the Metadata service
+- [Configuration](/metadata/getting-started/configuration) - Configure environment and database
 
 ### API Reference
-- [Authentication](/metadata/2.api-reference/authentication) - API key and session authentication
-- [Metadata Endpoints](/metadata/2.api-reference/metadata-endpoints) - CRUD operations for NFT metadata
-- [Media Endpoints](/metadata/2.api-reference/media-endpoints) - Upload and manage media files
+- [Authentication](/metadata/api-reference/authentication) - API key and session authentication
+- [Metadata Endpoints](/metadata/api-reference/metadata-endpoints) - CRUD operations for NFT metadata
+- [Media Endpoints](/metadata/api-reference/media-endpoints) - Upload and manage media files
 
 ### Architecture
-- [Clean Architecture](/metadata/3.architecture/clean-architecture) - Design patterns and principles
-- [Project Structure](/metadata/3.architecture/project-structure) - Directory organization
+- [Clean Architecture](/metadata/architecture/clean-architecture) - Design patterns and principles
+- [Project Structure](/metadata/architecture/project-structure) - Directory organization
 
 ### Deployment
-- [Production Checklist](/metadata/4.deployment/production-checklist) - Pre-deployment requirements
-- [Docker Deployment](/metadata/4.deployment/docker) - Container deployment guide
-- [Vercel Deployment](/metadata/4.deployment/vercel) - Next.js cloud deployment
+- [Production Checklist](/metadata/deployment/production-checklist) - Pre-deployment requirements
+- [Docker Deployment](/metadata/deployment/docker) - Container deployment guide
+- [Vercel Deployment](/metadata/deployment/vercel) - Next.js cloud deployment
 
 ### Security
-- [Security Best Practices](/metadata/5.security/best-practices) - Comprehensive security guidelines
+- [Security Best Practices](/metadata/security/best-practices) - Comprehensive security guidelines
 
 ## Getting Started
 

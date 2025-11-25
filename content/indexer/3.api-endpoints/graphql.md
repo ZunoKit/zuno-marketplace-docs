@@ -480,6 +480,6 @@ Recommended GraphQL clients:
 
 ## Next Steps
 
-- Explore [REST API Endpoints](/indexer/3.api-endpoints/rest-api) for simpler queries
-- Learn about [Event-First Architecture](/indexer/2.domain-architecture/event-first) for data structure
-- Review [Quick Start](/indexer/1.getting-started/quick-start) to access the GraphQL endpoint
+- Explore [REST API Endpoints](/indexer/api-endpoints/rest-api) for simpler queries
+- Learn about [Event-First Architecture](/indexer/domain-architecture/event-first) for data structure
+- Review [Quick Start](/indexer/getting-started/quick-start) to access the GraphQL endpoint

@@ -334,5 +334,5 @@ export async function POST(req: Request) {
 ## See Also
 
 - [Project Structure](/metadata/architecture/project-structure)
-- [Code Standards](/metadata/development/code-standards)
+<!-- - [Code Standards](/metadata/development/code-standards) -->
 - [Design Patterns](/metadata)

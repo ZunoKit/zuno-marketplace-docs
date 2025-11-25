@@ -91,9 +91,9 @@ relatedTopics:
   ::card{icon="i-heroicons-shield-check" title="Authentication" to="/abis/api-reference/authentication"}
   API key and session authentication
   ::
-  ::card{icon="i-heroicons-server" title="Deployment" to="/abis/deployment/vercel"}
+  <!-- ::card{icon="i-heroicons-server" title="Deployment" to="/abis/deployment/vercel"}
   Production deployment guides
-  ::
+  :: -->
 ::
 
 ## 🌐 Base URLs

@@ -21,7 +21,7 @@ First, install the project dependencies:
 npm install
 ```
 
-See [Installation](/indexer/1.getting-started/installation) for detailed setup instructions.
+See [Installation](/indexer/getting-started/installation) for detailed setup instructions.
 
 ## 2. Configure Environment Variables
 
@@ -51,7 +51,7 @@ PONDER_RPC_URL_8453=https://base-mainnet.g.alchemy.com/v2/your_alchemy_key
 
 **Note**: You can copy `.env.example` to `.env.local` and fill in your values.
 
-See [Configuration](/indexer/4.deployment/configuration) for complete environment variable documentation.
+<!-- See [Configuration](/indexer/deployment/configuration) for complete environment variable documentation. -->
 
 ## 3. Generate Configuration
 
@@ -128,10 +128,10 @@ npm run typecheck        # Run TypeScript type checking
 
 ## Next Steps
 
-- Learn about [Event-First Architecture](/indexer/2.domain-architecture/event-first)
-- Explore the [Domain Architecture](/indexer/2.domain-architecture/overview)
-- Check the [REST API](/indexer/3.api-endpoints/rest-api) documentation
-- Review [Deployment Configuration](/indexer/4.deployment/configuration)
+- Learn about [Event-First Architecture](/indexer/domain-architecture/event-first)
+- Explore the [Domain Architecture](/indexer/domain-architecture/overview)
+- Check the [REST API](/indexer/api-endpoints/rest-api) documentation
+<!-- - Review [Deployment Configuration](/indexer/deployment/configuration) -->
 
 ## Troubleshooting
 

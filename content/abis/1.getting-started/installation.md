@@ -309,7 +309,7 @@ After successful installation:
 - **[Quick Start](/abis/getting-started/quick-start)** - Configure and verify setup
 - **[API Authentication](/abis/api-reference/authentication)** - Set up API keys and sessions
 - **[Admin Dashboard](/)** - Explore the web interface
-- **[Production Deployment](/abis/deployment/vercel)** - Deploy to production
+<!-- - **[Production Deployment](/abis/deployment/vercel)** - Deploy to production -->
 
 ## Performance Tips
 
@@ -342,5 +342,5 @@ DATABASE_URL="postgresql://user:password@host:5432/db?connection_limit=20"
 ## See Also
 
 - **[API Reference](/abis/api-reference/abis-endpoints)** - Complete API documentation
-- **[Deployment Guide](/abis/deployment/vercel)** - Production deployment
+<!-- - **[Deployment Guide](/abis/deployment/vercel)** - Production deployment -->
 - **[Authentication](/abis/api-reference/authentication)** - API key and session auth

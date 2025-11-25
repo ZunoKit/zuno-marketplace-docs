@@ -234,7 +234,7 @@ Before deploying to production, ensure:
 - [ ] All tests passing (`pnpm test`)
 - [ ] Type checking clean (`pnpm typecheck`)
 
-See [Deployment Guide](/abis/deployment/vercel) for complete production setup.
+<!-- See [Deployment Guide](/abis/deployment/vercel) for complete production setup. -->
 
 ## Getting Help
 

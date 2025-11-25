@@ -310,10 +310,10 @@ X-RateLimit-Reset: 1642589432
 X-RateLimit-Tier: free
 ```
 
-See [Rate Limiting Documentation](/abis/api-reference/rate-limiting) for complete details.
+<!-- See [Rate Limiting Documentation](/abis/api-reference/rate-limiting) for complete details. -->
 
 ## Next Steps
 
 - [API Endpoints](/abis/api-reference/abis-endpoints) - Core API endpoints
-- [Response Format](/abis/api-reference/response-format) - API response structure
-- [Security Best Practices](/abis/security/best-practices) - Security guidelines
+<!-- - [Response Format](/abis/api-reference/response-format) - API response structure -->
+<!-- - [Security Best Practices](/abis/security/best-practices) - Security guidelines -->

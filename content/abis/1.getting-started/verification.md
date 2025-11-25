@@ -319,7 +319,7 @@ Once verification is complete:
 1. **Start Development** - Begin implementing features
 2. **Read API Documentation** - [API Reference](/abis/api-reference/authentication)
 3. **Configure Settings** - Customize application behavior
-4. **Plan Deployment** - [Deployment Guide](/abis/deployment/vercel)
+<!-- 4. **Plan Deployment** - [Deployment Guide](/abis/deployment/vercel) -->
 
 ## Support
 

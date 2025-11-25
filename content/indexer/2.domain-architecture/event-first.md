@@ -253,6 +253,6 @@ Composite indexes on frequently accessed query patterns:
 
 ## Next Steps
 
-- Learn about [Domain Separation](/indexer/2.domain-architecture/domains)
-- Explore the [Architecture Overview](/indexer/2.domain-architecture/overview)
-- Review [REST API endpoints](/indexer/3.api-endpoints/rest-api) that use this architecture
+- Learn about [Domain Separation](/indexer/domain-architecture/domains)
+- Explore the [Architecture Overview](/indexer/domain-architecture/overview)
+- Review [REST API endpoints](/indexer/api-endpoints/rest-api) that use this architecture
