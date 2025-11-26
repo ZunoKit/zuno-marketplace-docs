@@ -19,8 +19,8 @@ export default defineAppConfig({
     to: '/',
     logo: {
       alt: 'Zuno Marketplace',
-      light: '',
-      dark: ''
+      light: 'https://zunokit.github.io/zuno-marketplace-assets/images/zuno-logo.png',
+      dark: 'https://zunokit.github.io/zuno-marketplace-assets/images/zuno-logo.png'
     },
     search: true,
     colorMode: true,
